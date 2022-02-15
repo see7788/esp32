@@ -501,7 +501,7 @@ lightStateService->update(jsonObject, LightState::update, "timer");
 
 #### Endpoints
 
-The framework provides an [HttpEndpoint.h](lib/framework/HttpEndpoint.h) class which may be used to register GET and POST handlers to read and update the state over HTTP. You may construct an HttpEndpoint as a part of the StatefulService or separately if you prefer.... 
+The framework provides an [HttpEndpoint.h](lib/framework/HttpEndpoint.h) class which may be used to register GET and POST handlers to read and update the state over HTTP. You may construct an HttpEndpoint as a part of the StatefulService or separately if you prefer...... 
 
 The code below demonstrates how to extend the LightStateService class to provide an unsecured endpoint:
 

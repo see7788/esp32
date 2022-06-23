@@ -54,7 +54,7 @@ ESP8266React::ESP8266React(AsyncWebServer* server) :
       });
 #else
   // Serve static resources from /www/
-  server->serveStatic("/js/", ESPFS, "/www/js/");
+  server-> ("/js/", ESPFS, "/www/js/");
   server->serveStatic("/css/", ESPFS, "/www/css/");
   server->serveStatic("/fonts/", ESPFS, "/www/fonts/");
   server->serveStatic("/app/", ESPFS, "/www/app/");
